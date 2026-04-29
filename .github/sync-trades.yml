@@ -1,0 +1,39 @@
+name: Sync Politician Trades Nightly
+
+on:
+  schedule:
+    # Run every day at 2 AM UTC (adjust timezone as needed)
+    - cron: '0 2 * * *'
+  # Also allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-trades:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run trade sync script
+        env:
+          PTT_API_KEY: ${{ secrets.PTT_API_KEY }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+        run: node politician-trades-backend.js
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Trades Bot"
+          git add trades-data.json
+          git commit -m "🔄 Update politician trades data [$(date +'%Y-%m-%d %H:%M UTC')]" || echo "No changes to commit"
+          git push
+
+      - name: Log sync result
+        run: |
+          echo "Trades synced successfully at $(date)"

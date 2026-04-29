@@ -1,0 +1,20 @@
+{
+  "name": "capitol-trades-tracker",
+  "version": "1.0.0",
+  "description": "Track and analyze U.S. politician stock trades in real-time",
+  "main": "politician-trades-backend.js",
+  "scripts": {
+    "sync": "node politician-trades-backend.js",
+    "dev": "node politician-trades-backend.js"
+  },
+  "keywords": [
+    "politics",
+    "trading",
+    "stocks",
+    "congress",
+    "transparency"
+  ],
+  "author": "Mike",
+  "license": "MIT",
+  "dependencies": {}
+}
