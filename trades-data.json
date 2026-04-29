@@ -9,7 +9,19 @@
       "tradeDate": "2026-04-25",
       "filingDate": "2026-04-28",
       "portfolioPercent": 3.2,
-      "currentPrice": 128.50,
+      "currentPrice": 128.5,
+      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
+    },
+    {
+      "politician": "Alexandria Ocasio-Cortez",
+      "state": "NY",
+      "ticker": "TSLA",
+      "type": "BUY",
+      "amount": "$100K-$250K",
+      "tradeDate": "2026-04-24",
+      "filingDate": "2026-04-28",
+      "portfolioPercent": 4.7,
+      "currentPrice": 187.3,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     },
     {
@@ -25,15 +37,15 @@
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     },
     {
-      "politician": "Alexandria Ocasio-Cortez",
+      "politician": "Chuck Schumer",
       "state": "NY",
-      "ticker": "TSLA",
+      "ticker": "AAPL",
       "type": "BUY",
-      "amount": "$100K-$250K",
-      "tradeDate": "2026-04-24",
-      "filingDate": "2026-04-28",
-      "portfolioPercent": 4.7,
-      "currentPrice": 187.30,
+      "amount": "$250K-$500K",
+      "tradeDate": "2026-04-22",
+      "filingDate": "2026-04-26",
+      "portfolioPercent": 1.9,
+      "currentPrice": 180.55,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     },
     {
@@ -45,22 +57,10 @@
       "tradeDate": "2026-04-20",
       "filingDate": "2026-04-25",
       "portfolioPercent": 2.8,
-      "currentPrice": 445.20,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    },
-    {
-      "politician": "Chuck Schumer",
-      "state": "NY",
-      "ticker": "AAPL",
-      "type": "BUY",
-      "amount": "$250K-$500K",
-      "tradeDate": "2026-04-22",
-      "filingDate": "2026-04-26",
-      "portfolioPercent": 1.9,
-      "currentPrice": 180.55,
+      "currentPrice": 445.2,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     }
   ],
-  "lastUpdated": "2026-04-28T10:30:00Z",
-  "policyCount": 5
+  "lastUpdated": "2026-04-29T15:31:10.249Z",
+  "policyCount": 10
 }
