@@ -47,20 +47,8 @@
       "portfolioPercent": 1.9,
       "currentPrice": 180.55,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    },
-    {
-      "politician": "Mitt Romney",
-      "state": "UT",
-      "ticker": "MSFT",
-      "type": "BUY",
-      "amount": "$500K-$1M",
-      "tradeDate": "2026-04-20",
-      "filingDate": "2026-04-25",
-      "portfolioPercent": 2.8,
-      "currentPrice": 445.2,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     }
   ],
-  "lastUpdated": "2026-06-03T06:45:30.162Z",
+  "lastUpdated": "2026-06-04T06:29:20.829Z",
   "policyCount": 10
 }
