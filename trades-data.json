@@ -35,20 +35,8 @@
       "portfolioPercent": 1.1,
       "currentPrice": 215.75,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    },
-    {
-      "politician": "Chuck Schumer",
-      "state": "NY",
-      "ticker": "AAPL",
-      "type": "BUY",
-      "amount": "$250K-$500K",
-      "tradeDate": "2026-04-22",
-      "filingDate": "2026-04-26",
-      "portfolioPercent": 1.9,
-      "currentPrice": 180.55,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     }
   ],
-  "lastUpdated": "2026-06-05T06:14:50.838Z",
+  "lastUpdated": "2026-06-06T05:48:12.087Z",
   "policyCount": 10
 }
