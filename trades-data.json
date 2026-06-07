@@ -23,20 +23,8 @@
       "portfolioPercent": 4.7,
       "currentPrice": 187.3,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    },
-    {
-      "politician": "Mitch McConnell",
-      "state": "KY",
-      "ticker": "JPM",
-      "type": "SELL",
-      "amount": "$500K-$1M",
-      "tradeDate": "2026-04-23",
-      "filingDate": "2026-04-27",
-      "portfolioPercent": 1.1,
-      "currentPrice": 215.75,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     }
   ],
-  "lastUpdated": "2026-06-06T05:48:12.087Z",
+  "lastUpdated": "2026-06-07T06:15:49.877Z",
   "policyCount": 10
 }
