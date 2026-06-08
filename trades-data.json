@@ -11,20 +11,8 @@
       "portfolioPercent": 3.2,
       "currentPrice": 128.5,
       "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    },
-    {
-      "politician": "Alexandria Ocasio-Cortez",
-      "state": "NY",
-      "ticker": "TSLA",
-      "type": "BUY",
-      "amount": "$100K-$250K",
-      "tradeDate": "2026-04-24",
-      "filingDate": "2026-04-28",
-      "portfolioPercent": 4.7,
-      "currentPrice": 187.3,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
     }
   ],
-  "lastUpdated": "2026-06-07T06:15:49.877Z",
+  "lastUpdated": "2026-06-08T06:29:23.885Z",
   "policyCount": 10
 }
