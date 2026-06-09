@@ -1,18 +1,5 @@
 {
-  "trades": [
-    {
-      "politician": "Nancy Pelosi",
-      "state": "CA",
-      "ticker": "NVDA",
-      "type": "BUY",
-      "amount": "$1M-$5M",
-      "tradeDate": "2026-04-25",
-      "filingDate": "2026-04-28",
-      "portfolioPercent": 3.2,
-      "currentPrice": 128.5,
-      "secLink": "https://disclosures-clerk.house.gov/FinancialDisclosure"
-    }
-  ],
-  "lastUpdated": "2026-06-08T06:29:23.885Z",
+  "trades": [],
+  "lastUpdated": "2026-06-09T06:02:29.536Z",
   "policyCount": 10
 }
